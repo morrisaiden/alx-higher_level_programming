@@ -40,6 +40,6 @@ class Rectangle:
 
     def __str__(self):
         """String representation of the object"""
-        return "{{'_Rectangle__width': {}, '_Rectangle__height': {}}}".format(
-            self.__width, self.__height
+        return "{{'_Rectangle__height': {}, '_Rectangle__width': {}}}".format(
+            self.__height, self.__width
         )
