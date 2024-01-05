@@ -42,4 +42,4 @@ class Rectangle:
         """String representation of the object"""
         return "{{'_Rectangle__height': {}, '_Rectangle__width': {}}}".format(
             self.__height, self.__width
-        )
+            )
