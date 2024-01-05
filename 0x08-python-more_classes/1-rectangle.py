@@ -37,9 +37,9 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-        
+
     def __str__(self):
         """String representation of the object"""
         return "{{'_Rectangle__height': {}, '_Rectangle__width': {}}}".format(
             self.__height, self.__width
-            )
+        )
