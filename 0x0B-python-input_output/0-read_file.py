@@ -1,7 +1,17 @@
 #!/usr/bin/python3
-"""Read a file fn"""
+"""Module 0-read_file.
+Reads a file and prints.
+"""
 
 
 def read_file(filename=""):
-    with open(filename, "r", encoding="UTF-8") as f:
-        print(f.read(), end="")
+    """Reads from filename and prints
+    its content.
+
+    Arguments:
+        filename: name of the file
+    """
+
+    with open(filename) as f:
+        read_text = f.read()
+        print(read_text, end="")
