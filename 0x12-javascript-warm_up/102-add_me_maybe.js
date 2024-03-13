@@ -1,6 +1,6 @@
 #!/usr/bin/node
 module.exports = {
-    addMeMaybe: function (n, f) {
-	return f(n + 1);
+    addMeMaybe: function (q, r) {
+	return r(q + 1);
     }
 };
